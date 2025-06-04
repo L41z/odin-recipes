@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid #fdfdfd;
+  margin: 20px auto;
+  box-shadow: #1f1e1e;
+  opacity: 95%;
+  border: 1px solid black;
+  background-color: #f5f5f5;
+}
+
+main img {
+  width: 400px;
+  border: solid 1px #f5f5f5;
+  box-shadow: 60px -16px #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  /* border: 1px solid black; */
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  /* margin-right: 100px; */
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  margin: 5px auto;
+}
+
+#recipe-informations {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+ul li {
+  list-style: none;
+}
+
+.gradient {
+  background-image: linear-gradient(45deg,
+      hsl(0deg 0% 100%) 1%,
+      hsl(60deg 49% 95%) 39%,
+      hsl(61deg 49% 90%) 47%,
+      hsl(62deg 49% 85%) 50%,
+      hsl(63deg 49% 81%) 51%,
+      hsl(63deg 49% 76%) 51%,
+      hsl(64deg 50% 71%) 50%,
+      hsl(65deg 50% 66%) 49%,
+      hsl(66deg 50% 62%) 49%,
+      hsl(66deg 50% 57%) 50%,
+      hsl(67deg 51% 51%) 53%,
+      hsl(67deg 61% 46%) 61%,
+      hsl(67deg 95% 37%) 99%);
+}
